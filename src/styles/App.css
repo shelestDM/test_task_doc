@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  width: 800px;
+}
+.post {
+  display: flex;
+  padding: 15px;
+  border: 2px solid teal;
+  margin-top: 15px;
+}
+h1 {
+  text-align: center;
+}
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: rgb(197, 220, 255);
+}
+.navbar_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.convert {
+  margin: 20px;
+}
+.convert_items {
+  padding: 20px 25px;
+}
+.convert_items_p {
+  padding: 20px 25px 20px 0px;
+}
